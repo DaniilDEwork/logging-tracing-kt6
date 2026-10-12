@@ -1,0 +1,15 @@
+{
+  "Timestamp": "2026-10-13T00:42:56.5032576+03:00",
+  "Level": "Fatal",
+  "MessageTemplate": "!!! Ошибка !!! Критическое исключение в операции {Operation}",
+  "RenderedMessage": "!!! Ошибка !!! Критическое исключение в операции \"Main\"",
+  "Exception": "System.UnauthorizedAccessException: Access to the path is denied.\r\n   at System.ConsolePal.WindowsConsoleStream.Read(Span`1 buffer)\r\n   at System.IO.ConsoleStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.StreamReader.ReadBuffer()\r\n   at System.IO.StreamReader.ReadLine()\r\n   at System.IO.SyncTextReader.ReadLine()\r\n   at System.Console.ReadLine()\r\n   at TaskManagerApp.Program.RunTaskManager() in C:\\Users\\denis\\OneDrive\\Рабочий стол\\logging-tracing-kt6\\Program.cs:line 90\r\n   at TaskManagerApp.Program.Main() in C:\\Users\\denis\\OneDrive\\Рабочий стол\\logging-tracing-kt6\\Program.cs:line 31",
+  "Properties": {
+    "Operation": "Main",
+    "StackTrace": "   at System.ConsolePal.WindowsConsoleStream.Read(Span`1 buffer)\r\n   at System.IO.ConsoleStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at System.IO.StreamReader.ReadBuffer()\r\n   at System.IO.StreamReader.ReadLine()\r\n   at System.IO.SyncTextReader.ReadLine()\r\n   at System.Console.ReadLine()\r\n   at TaskManagerApp.Program.RunTaskManager() in C:\\Users\\denis\\OneDrive\\Рабочий стол\\logging-tracing-kt6\\Program.cs:line 90\r\n   at TaskManagerApp.Program.Main() in C:\\Users\\denis\\OneDrive\\Рабочий стол\\logging-tracing-kt6\\Program.cs:line 31",
+    "ExceptionMessage": "Access to the path is denied.",
+    "ExceptionType": "System.UnauthorizedAccessException",
+    "Application": "TaskManager",
+    "SessionId": "447f9daf-8cdb-4694-95af-4bb270686605"
+  }
+}

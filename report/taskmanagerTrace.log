@@ -1,0 +1,28 @@
+TaskManagerTrace Start: 10 : Начало сеанса 3a084f3b-8843-49d2-b26e-978ebb16d2c5
+TaskManagerTrace Start: 0 : Начало операции AddTask
+TaskManagerTrace Verbose: 4 : AddTask: проверка названия задачи
+TaskManagerTrace Verbose: 4 : AddTask: создание задачи и добавление в коллекцию
+TaskManagerTrace Stop: 1 : Завершение AddTask. Результат: успех, добавлена задача 'Учить C#'. Всего задач: 1. Время: 2,993 мс
+TaskManagerTrace Start: 0 : Начало операции ListTasks
+TaskManagerTrace Verbose: 4 : ListTasks: проверка коллекции, задач: 1
+TaskManagerTrace Stop: 1 : Завершение ListTasks. Результат: успех, список выведен. Всего задач: 1. Время: 1,088 мс
+TaskManagerTrace Start: 0 : Начало операции AddTask
+TaskManagerTrace Verbose: 4 : AddTask: проверка названия задачи
+TaskManagerTrace Error: 3 : AddTask: Название задачи не может быть пустым (Parameter 'title')
+TaskManagerTrace Stop: 1 : Завершение AddTask. Результат: ошибка, Название задачи не может быть пустым (Parameter 'title'). Всего задач: 1. Время: 9,746 мс
+TaskManagerTrace Start: 0 : Начало операции RemoveTask
+TaskManagerTrace Verbose: 4 : RemoveTask: проверка названия задачи
+TaskManagerTrace Verbose: 4 : RemoveTask: поиск задачи 'xyz' в коллекции
+TaskManagerTrace Error: 3 : RemoveTask: Задача "xyz" не найдена для удаления
+TaskManagerTrace Stop: 1 : Завершение RemoveTask. Результат: ошибка, Задача "xyz" не найдена для удаления. Всего задач: 1. Время: 0,234 мс
+TaskManagerTrace Start: 0 : Начало операции ListTasks
+TaskManagerTrace Verbose: 4 : ListTasks: проверка коллекции, задач: 1
+TaskManagerTrace Stop: 1 : Завершение ListTasks. Результат: успех, список выведен. Всего задач: 1. Время: 0,059 мс
+TaskManagerTrace Start: 0 : Начало операции RemoveTask
+TaskManagerTrace Verbose: 4 : RemoveTask: проверка названия задачи
+TaskManagerTrace Verbose: 4 : RemoveTask: поиск задачи 'Учить C#' в коллекции
+TaskManagerTrace Stop: 1 : Завершение RemoveTask. Результат: успех, удалена задача 'Учить C#'. Всего задач: 0. Время: 0,115 мс
+TaskManagerTrace Start: 0 : Начало операции ListTasks
+TaskManagerTrace Verbose: 4 : ListTasks: проверка коллекции, задач: 0
+TaskManagerTrace Stop: 1 : Завершение ListTasks. Результат: успех, список пуст. Всего задач: 0. Время: 0,181 мс
+TaskManagerTrace Stop: 11 : Конец сеанса 3a084f3b-8843-49d2-b26e-978ebb16d2c5. Результат: успех. Время: 80,054 мс

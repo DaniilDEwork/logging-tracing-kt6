@@ -1,0 +1,20 @@
+{
+  "Timestamp": "2026-10-13T00:41:32.8477446+03:00",
+  "Level": "Information",
+  "MessageTemplate": "Добавлена задача {TaskTitle}. ID: {TaskId}. Всего задач: {TaskCount}",
+  "RenderedMessage": "Добавлена задача \"Учить C#\". ID: 1. Всего задач: 1",
+  "Properties": {
+    "TaskTitle": "Учить C#",
+    "TaskId": 1,
+    "TaskCount": 1,
+    "TaskItem": {
+      "Id": 1,
+      "Title": "Учить C#",
+      "_typeTag": "Task"
+    },
+    "Result": "Success",
+    "Operation": "AddTask",
+    "Application": "TaskManager",
+    "SessionId": "3a084f3b-8843-49d2-b26e-978ebb16d2c5"
+  }
+}

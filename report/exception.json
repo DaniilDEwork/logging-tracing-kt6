@@ -1,0 +1,16 @@
+{
+  "Timestamp": "2026-10-13T00:41:32.8620371+03:00",
+  "Level": "Error",
+  "MessageTemplate": "!!! Ошибка !!! Перехвачено исключение в операции {Operation}",
+  "RenderedMessage": "!!! Ошибка !!! Перехвачено исключение в операции \"RemoveTask\"",
+  "Exception": "System.Collections.Generic.KeyNotFoundException: Задача \"xyz\" не найдена для удаления\r\n   at TaskManagerApp.TaskManager.RemoveTask(String title) in C:\\Users\\denis\\OneDrive\\Рабочий стол\\logging-tracing-kt6\\TaskManager.cs:line 68",
+  "Properties": {
+    "Operation": "RemoveTask",
+    "TaskTitle": "xyz",
+    "StackTrace": "   at TaskManagerApp.TaskManager.RemoveTask(String title) in C:\\Users\\denis\\OneDrive\\Рабочий стол\\logging-tracing-kt6\\TaskManager.cs:line 68",
+    "ExceptionMessage": "Задача \"xyz\" не найдена для удаления",
+    "ExceptionType": "System.Collections.Generic.KeyNotFoundException",
+    "Application": "TaskManager",
+    "SessionId": "3a084f3b-8843-49d2-b26e-978ebb16d2c5"
+  }
+}
